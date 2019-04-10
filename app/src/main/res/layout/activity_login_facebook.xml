@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginFacebook">
+
+    <com.facebook.login.widget.ProfilePictureView
+        android:id="@+id/imageProfile"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="76dp" />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="235dp"
+        android:layout_height="38dp"
+        android:layout_gravity="center_horizontal"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="192dp" />
+
+    <Button
+        android:id="@+id/dangxuat"
+        android:layout_width="143dp"
+        android:layout_height="28dp"
+        android:background="@color/com_facebook_button_background_color_focused_disabled"
+        android:text="Đăng xuất"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="571dp" />
+
+    <TextView
+        android:id="@+id/name_fb"
+        android:layout_width="229dp"
+        android:layout_height="34dp"
+        android:text="Tên"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="268dp" />
+
+    <TextView
+        android:id="@+id/email_fb"
+        android:layout_width="233dp"
+        android:layout_height="35dp"
+        android:text="Email"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="322dp" />
+</android.support.constraint.ConstraintLayout>
